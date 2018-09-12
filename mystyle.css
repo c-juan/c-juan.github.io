@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+body{
+
+    color:white;
+
+}
+
+a:link, a:visited {
+    background-color: purple;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+}
+
+
+a:hover, a:active {
+    background-color: purple;
+}
