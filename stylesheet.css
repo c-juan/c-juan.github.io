@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+}
+
+.btn{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn:hover{
+
+    color: black;
+    background-color: yellow;
+
+}
+
+.header{
+font-size: 23px;
+color: white;
+background: transparent;
+text-decoration: none;
+padding-right: 100px;
+padding-left: 100px;
+}
+
+.navbar-toggler{
+    background-color: yellow;
+}
+
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+a{ 
+    color: inherit;
+}
+
+a:hover{ 
+    color: yellow;
+}
+
+#name{
+
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+    font-size: 72px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#adjs {
+
+        text-align: center;
+        color: white;
+        font-size: 32px;
+        font-family: 'Playfair Display', serif;
+
+}
+
+/* html {
+    background: url(headerpic.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  } */
