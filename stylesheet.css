@@ -9,7 +9,6 @@ body,html{
 
 }
 
-
 .btn{
     padding-left: 100px;
     padding-right: 100px;
@@ -25,18 +24,15 @@ body,html{
 
 }
 
-.header{
+/* .header{
 font-size: 23px;
 color: white;
 background: transparent;
 text-decoration: none;
 padding-right: 100px;
 padding-left: 100px;
-}
+} */
 
-.navbar-toggler{
-    background-color: yellow;
-}
 
 .navbar-nav > li{
     padding-left:20px;
@@ -61,7 +57,7 @@ a:hover{
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 250px;
-    font-size: 72px;
+    font-size: 5vmax;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -69,7 +65,7 @@ a:hover{
 
         text-align: center;
         color: white;
-        font-size: 32px;
+        font-size: 3vmax;
         font-family: 'Playfair Display', serif;
 
 }
