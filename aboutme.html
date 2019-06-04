@@ -19,7 +19,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                     <img src="jlogo.png" width="100" height="100" class="d-inline-block align-top" alt="">
 			</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMine" aria-controls="navbarMine" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,11 +27,11 @@
 			</button>
 			<div class="collapse justify-content-center navbar-collapse" id="navbarMine">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>   
-						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="aboutme.html">ME</a>
+							<a class="nav-link" href="index.html">HOME</a>   
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="aboutme.html">ME<span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
 								<a class="nav-link" href="projects.html">PROJECTS</a>
@@ -42,13 +42,24 @@
 					</ul>
 			</div>
 	</nav>
+
+	<h1 id="aboutme">ABOUT ME</h1>
     
         <div class="container">
         	<div class="row justify-content-center">
             	<div class="col text-center">
-					<img class="img-fluid" src="me.jpg" width="300" height="300">
+					<img id="mepic" class="img-fluid" src="me.png" width="500" height="500">
 				</div>
-            </div>
+			</div>
+			
+			<div class="row justify-content-center">
+            	<div class="col text-center">
+					<p>My name is Juan Carrera I am 24 years old based out of Orange County. I am a recent Computer Science graduate From California State University, Fullerton.<br>
+					I lik
+					</p>
+				</div>
+			</div>
+			
        </div>
 </body>
 </html>

@@ -5,3 +5,7 @@ function linkden(){
 function github(){
     window.open("https://www.github.com/jweird");
 }
+
+$(window).scroll(function(){
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+});

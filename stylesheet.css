@@ -9,6 +9,8 @@ body,html{
 
 }
 
+
+
 .btn{
 
     padding-left: 100px;
@@ -27,7 +29,7 @@ body,html{
 }
 
 .navbar-nav > li{
-    font-size: 3vh;
+    font-size: 2vh;
     padding-left:20px;
     padding-right:20px;
   }
@@ -49,7 +51,7 @@ a:hover{
 
     text-align: center;
     color: rgb(255, 255, 255);
-    margin-top: 15%;
+    margin-top: 30%;
     font-size: 5vmax;
     font-family: 'Poppins', sans-serif;
 }
@@ -63,6 +65,14 @@ a:hover{
 
 }
 
+.bod_headers{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 20% 
+
+}
+
 .container{
     justify-content: center;
     justify-items: center;
@@ -73,7 +83,27 @@ a:hover{
     justify-content: center;
 }
 
+#mepic{
+    margin-top: 5%;
 
+}
+
+
+.navbar.scrolled{
+    background:#000;
+  }
+
+#me_desc{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 2vmax;
+  }
+
+  .card_cont{
+      display: flex;
+      justify-content: center;
+      margin-top: 5%;
+  }
 
 /* .btns{
     display: flex;

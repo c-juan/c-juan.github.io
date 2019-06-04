@@ -18,8 +18,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="#top">
                     <img src="jlogo.png" width="100" height="100" class="d-inline-block align-top" alt="">
 			</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMine" aria-controls="navbarMine" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,11 +27,11 @@
 			</button>
 			<div class="collapse justify-content-center navbar-collapse" id="navbarMine">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>   
+						<li class="nav-item">
+							<a class="nav-link" href="#top">HOME</a>   
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="aboutme.html">ME</a>
+							<a class="nav-link" href="#aboutme">ME</a>
 						</li>
 						<li class="nav-item">
 								<a class="nav-link" href="projects.html">PROJECTS</a>
@@ -43,7 +43,9 @@
 			</div>
 	</nav>
 
-    <div class="container text-center">
+	<header>
+
+    <div class="container text-center" id="top">
             <div class="row">
 				<div class="col">
 				<h1 id="name">JUAN CARRERA</h1>
@@ -67,7 +69,83 @@
 					<button type="button" class="btn btn-outline-light btn-lg"onclick="github()">GITHUB</button>
 				</div>
             </div>
-    </div>
+	</div>
+
+	</header>
+	
+	<main>
+	<h1 class="bod_headers">ABOUT ME</h1>
+    
+        <div class="container">
+        	<div class="row justify-content-center">
+            	<div class="col text-center">
+					<img id="mepic" class="img-fluid" src="me.png" width="500" height="500">
+				</div>
+			</div>
+			
+			<div class="row justify-content-center">
+            	<div class="col text-center">
+					<p id="me_desc">My name is Juan Carrera I am 24 years old based out of Orange County. I am a recent Computer Science graduate From California State University, Fullerton.
+					I am interested in Full Stack Engineering and am always trying to better my skills. I enjoy Electronic Music and get a lot of my insperation from the genre and artists. <br> <br>I am ambitious <br> I am creative <br> I am passionate
+					</p>
+				</div>
+			</div>
+			
+	   </div>
+
+	   <h1 class="bod_headers">PROJECTS</h1>
+
+	   <div class="card_cont">
+			<div class="row">
+					<div class="col">	
+							<div class="card" style="width: 25rem;">
+									<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									<a href="#" class="btn btn-outline-dark ">Go somewhere</a>
+									</div>
+								</div>
+					</div>
+			
+					<div class="col">	
+							<div class="card" style="width: 25rem;">
+									<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									<a href="#" class="btn btn-outline-dark ">Go somewhere</a>
+									</div>
+								</div>
+					</div>
+
+
+
+					<div class="col-lg">	
+							<div class="card" style="width: 25rem;">
+									<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									<a href="#" class="btn btn-outline-dark ">Go somewhere</a>
+									</div>
+								</div>
+					</div>
+			</div>
+	  </div>
+
+	  <div class="row">
+			<div class="col">	
+					<div class="card" style="width: 25rem;">
+							<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-outline-dark ">Go somewhere</a>
+							</div>
+						</div>
+			</div>
+	</div>
+
+	  
+	   
+	</main>
     
 </body>
 </html>
