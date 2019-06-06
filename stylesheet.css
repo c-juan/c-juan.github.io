@@ -6,12 +6,14 @@ body,html{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: auto;
+
 
 }
 
 
 
-.btn{
+.mainbuttons{
 
     padding-left: 100px;
     padding-right: 100px;
@@ -23,19 +25,25 @@ body,html{
 
 .btn:hover{
 
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 255, 0);
 
 }
 
-.navbar-nav > li{
-    font-size: 2vh;
-    padding-left:20px;
-    padding-right:20px;
+#brand{
+    margin: 0px;
+}
+
+.nav-link{
+    font-size: 3vmin;
+    text-align: right;
+    padding: 0% 4% 0% 0%;
+    margin-left: 5px;
+ 
   }
 
 a{ 
-    color: inherit;
+    color: white;
 }
 
 a:hover{ 
@@ -54,6 +62,9 @@ a:hover{
     margin-top: 30%;
     font-size: 5vmax;
     font-family: 'Poppins', sans-serif;
+}
+.textnav{
+    display: flex;
 }
 
 #adjs {
@@ -94,7 +105,6 @@ a:hover{
   }
 
 #me_desc{
-    font-family: 'Playfair Display', serif;
     color: white;
     font-size: 2vmax;
   }
@@ -102,7 +112,20 @@ a:hover{
   .card_cont{
       display: flex;
       justify-content: center;
+      justify-items: center;
       margin-top: 5%;
+  }
+
+  .navbar{
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+
+  .card{
+      margin: 10px;
+      background-color: rgb(0, 0, 0, 0.5);
+      color: white;
+      
   }
 
 /* .btns{

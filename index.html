@@ -18,28 +18,15 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-dark fixed-top">
             <a class="navbar-brand" href="#top">
                     <img src="jlogo.png" width="100" height="100" class="d-inline-block align-top" alt="">
 			</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMine" aria-controls="navbarMine" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse justify-content-center navbar-collapse" id="navbarMine">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="#top">HOME</a>   
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#aboutme">ME</a>
-						</li>
-						<li class="nav-item">
-								<a class="nav-link" href="projects.html">PROJECTS</a>
-						</li>
-						<li class="nav-item">
-								<a class="nav-link" href="#">RESUME</a>
-						</li>
-					</ul>
+			<div class="textnav">
+			<a class="nav-link" href="#top">HOME</a>
+			<a class="nav-link" href="#aboutme">ME</a>
+			<a class="nav-link" href="#projs">PROJECTS</a>
+			<a class="nav-link" href="#resume">SKILLS</a>
 			</div>
 	</nav>
 
@@ -63,10 +50,10 @@
 			</div>
             <div class="row justify-content-center">
 				<div class="col col-lg-4">
-					<button type="button" class="btn btn-outline-light btn-lg" onclick="linkden()">LINKEDIN</button>
+					<button type="button" class="btn mainbuttons btn-outline-light btn-lg" onclick="linkden()">LINKEDIN</button>
 				</div>
 				<div class="col col-lg-4">
-					<button type="button" class="btn btn-outline-light btn-lg"onclick="github()">GITHUB</button>
+					<button type="button" class="btn mainbuttons btn-outline-light btn-lg"onclick="github()">GITHUB</button>
 				</div>
             </div>
 	</div>
@@ -74,7 +61,7 @@
 	</header>
 	
 	<main>
-	<h1 class="bod_headers">ABOUT ME</h1>
+	<h1 class="bod_headers" id="aboutme">ABOUT ME</h1>
     
         <div class="container">
         	<div class="row justify-content-center">
@@ -93,55 +80,46 @@
 			
 	   </div>
 
-	   <h1 class="bod_headers">PROJECTS</h1>
+	   <h1 class="bod_headers" id="projs">PROJECTS</h1>
 
 	   <div class="card_cont">
 			<div class="row">
-					<div class="col">	
-							<div class="card" style="width: 25rem;">
+					<div class="col-lg d-flex justify-content-center">	
+							<div class="card">
 									<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									<a href="#" class="btn btn-outline-dark ">Go somewhere</a>
+									<h5 class="card-title">GOOODPHELLAS WEBSITE</h5>
+									<p class="card-text">A responsive website built for a local music collective. Standard features with a Soundcloud embeded frame. <br> Hosted using Github and Netlify</p>
+									<a href="https://thegoodphellas.com/" target="_blank" class="btn cardbutton btn-outline-light ">Check it out</a>
 									</div>
 								</div>
 					</div>
 			
-					<div class="col">	
-							<div class="card" style="width: 25rem;">
+					<div class="col-lg d-flex justify-content-center">	
+							<div class="card">
 									<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									<a href="#" class="btn btn-outline-dark ">Go somewhere</a>
+									<h5 class="card-title">BLOG API</h5>
+									<p class="card-text">A microservices API built that would be used for a blog. <br> Technologies used: Python, NGINX, Cassandra, ScayllaDB </p>
+									<a href="https://github.com/jweird/Blog-API" class="btn cardbutton btn-outline-light sticky-bottom">Source Code</a>
 									</div>
 								</div>
 					</div>
 
 
 
-					<div class="col-lg">	
-							<div class="card" style="width: 25rem;">
+					<div class="col-lg d-flex justify-content-center">	
+							<div class="card">
 									<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									<a href="#" class="btn btn-outline-dark ">Go somewhere</a>
+									<h5 class="card-title">Mood-Music</h5>
+									<p class="card-text">Play a song according to someones mood using the Spotify API. <br> Technology used: React, Bootstrap, HTML, CSS, Spotify API</p>
+									<a href="#" class="btn cardbutton btn-outline-light sticky-bottom">Go somewhere</a>
 									</div>
 								</div>
 					</div>
 			</div>
 	  </div>
 
-	  <div class="row">
-			<div class="col">	
-					<div class="card" style="width: 25rem;">
-							<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-outline-dark ">Go somewhere</a>
-							</div>
-						</div>
-			</div>
-	</div>
+	  <h1 class="bod_headers" id="resume">RESUME</h1>
+
 
 	  
 	   
